@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header .custom-nav__link {
+  padding: 32px 24px !important;
+}
+
+.header .custom-nav__link:last-child {
+  padding-right: 0 !important;
+}
+/*# sourceMappingURL=index.css.map */

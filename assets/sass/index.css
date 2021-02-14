@@ -1,0 +1,58 @@
+.bg-black {
+  background-color: #000 !important;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header .custom-nav__link {
+  padding: 32px 24px !important;
+}
+
+.header .custom-nav__link:last-child {
+  padding-right: 0 !important;
+}
+
+#intro {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(75%, rgba(0, 0, 0, 0.7)), to(#000000)), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#intro .grayscale {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 100px;
+  letter-spacing: 4px;
+}
+
+@media screen and (max-width: 992px) {
+  .scroller {
+    overflow-x: scroll;
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+  }
+  .scroller__item {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .scroller::-webkit-scrollbar {
+    height: 4px;
+  }
+  .scroller::-webkit-scrollbar-thumb {
+    background-color: #444;
+    height: 2px;
+  }
+  .scroller::-webkit-scrollbar-track {
+    height: 2px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
